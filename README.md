@@ -7,7 +7,7 @@ We’re excited to launch a daily DSA question series "Algo Quest" brought to yo
 💡 1 thoughtfully curated DSA question every day to challenge your coding skills.  
 🥳 Standout participants will get shoutouts on our GDG Instagram and LinkedIn stories!  
 
-🗓 Starting Date: 15th January 2025  
+🗓 Starting Date: 20th January 2025  
 ⏰ Daily Question Time: 8 a.m  
 
 Boost your problem-solving abilities, one question at a time, and become a DSA pro! 🚀  
