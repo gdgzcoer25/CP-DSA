@@ -10,7 +10,7 @@ We’re excited to launch a daily DSA question series "Algo Quest" brought to yo
 🗓 Starting Date: 20th January 2025  
 ⏰ Daily Question Time: 8 a.m  
 
-Boost your problem-solving abilities, one question at a time, and become a DSA pro! 🚀  
+Master problem-solving skills, one challenge at a time, and unlock your potential as a DSA expert! 🚀
 
 Join our community to participate and access exclusive learning opportunities:  
 🔗 https://chat.whatsapp.com/JMP7siiolFWJ9mi4f9Z1Z2 🔗  
