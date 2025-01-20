@@ -1,5 +1,5 @@
-[UserId]:
-submission link: 
+[UserId]:  QuantSmith
+submission link:  https://codeforces.com/submissions/QuantSmith
 
 [UserId]:
 submission link: 
