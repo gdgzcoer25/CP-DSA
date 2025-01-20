@@ -23,35 +23,32 @@ public class Main {
 }
 
 // Test-Case:-
-Input
-  abccaa
-Output
-  YES
-Input
-  abbcca
-Output
-  NO
-Input
-  abcda
-Output
-  YES
+// Input
+//   abccaa
+// Output
+//   YES
+// Input
+//   abbcca
+// Output
+//   NO
+// Input
+//   abcda
+// Output
+//   YES
   
   
 //explanation:-
-    the program read the string s from user using scanner , 
-  then the length of string s is stored in var len . the reasone behind initializing the mismatchcount is to keep tract of 
-  how many char are mismatched in the string from both ends . we use for loop to compare char from both ends of string s ,
-  we are using .charAt(i) and .charAt(len-i-1) to get char from left and right respectively . 
-  lets take example of string "abcda" 
-  according to the code it will get stored in the s and len will strore value of 5 in it. mismatchcount remains 0. 
-   in the for loop 
-  starts with i=0 , we comapre charAt(0) with charAt(4) it gives no mismatch
-  i=1 charAt(1) with charAt(3)  then mismatch count increases so mismatchcount=1
-  here program checks the if condition , here mismatchcount==1 so it will return "yes"
-
-   lets take another example of string "abcd" 
-  according to the code it will get stored in the s and len will strore value of 4 in it. mismatchcount remains 0. 
-  the for loop 
-  starts with i=0 , we comapre charAt(0) with charAt(3) it gives  mismatchcount=1
-  i=1 charAt(1) with charAt(2)  then mismatch count increases so mismatchcount=2
-  here program checks the else  condition because  here mismatchcount=2 so it will return "no"
+   
+// This program determines whether a string can be turned into a palindrome by modifying at most one character.
+//   A palindrome is a string that reads the same forward and backward. To check this, the program compares characters 
+//   from both ends of the string, moving inward toward the center. It counts the number of mismatched character pairs—where 
+//   the character at position i from the start does not match the character at position i from the end.If there is exactly one
+//   mismatch, it is possible to make the string a palindrome by changing one of the mismatched characters, so the output is "YES." 
+//   If there are no mismatches, the string is already a palindrome. For strings with an odd length, the middle character can still
+//   be freely changed, and the output is "YES." However, for even-length strings with no mismatches, no changes are allowed while 
+// preserving the palindrome property, so the output is "NO." If there are more than one mismatch,
+//   it is impossible to make the string a palindrome with a single modification, resulting in "NO."
+ 
+//   For example, the string "abca" has one mismatch between 'b' and 'c,' so it can be turned into a palindrome by changing either
+//   of these characters, and the output is "YES." The string "racecar" has no mismatches, so it is already a palindrome, and the output
+//   is "YES." However,the string "abcd" has two mismatches, so it cannot be made into a palindrome with a single change, and the output is "NO."
