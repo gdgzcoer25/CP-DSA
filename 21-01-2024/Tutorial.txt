@@ -1,0 +1,16 @@
+
+Purpose of the code:
+The function twoSum checks if there are two numbers in the given array (arr) that add up to the target. If such a pair exists, it returns true (or 1), otherwise, it returns false (or 0).
+
+Steps in the code:
+
+Sorting the array: The array is sorted to make it easier to find pairs using two pointers.
+Using two pointers:
+left starts at the beginning of the array, and right starts at the end.
+
+Logic:
+If the sum of arr[left] and arr[right] equals target, return true.
+If their sum is less than target, move the left pointer right to increase the sum.
+If their sum is greater than target, move the right pointer left to decrease the sum.
+This process continues until left and right pointers meet.
+If no pair is found, return false.
