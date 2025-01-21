@@ -1,8 +1,8 @@
-[UserId]:
-submission link: 
+[UserId]: purvighatage  
+submission link: https://codeforces.com/contest/798/submission/301626448 
 
-[UserId]:
-submission link: 
+[UserId]: QuantSmith
+submission link: https://codeforces.com/contest/798/submission/302122781
 
 [UserId]:
 submission link: 
