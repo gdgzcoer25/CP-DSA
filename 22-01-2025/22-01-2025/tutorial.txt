@@ -1,0 +1,34 @@
+Intuition:
+
+In this question you need to reverse the elements of array which is given.For solving this type of problems there are multiple approaches..
+
+Approaches:
+
+1. Two Pointers (In-place reversal):
+
+Concept:
+Use two pointers, one starting at the beginning of the array (left pointer) and the other at the end (right pointer).
+Swap the elements at these pointers.
+Move the left pointer one step to the right and the right pointer one step to the left.
+Repeat until the pointers meet or cross each other.
+Example:
+Array: [1, 2, 3, 4, 5]
+1st swap: [5, 2, 3, 4, 1] (swap 1 and 5)
+2nd swap: [5, 4, 3, 2, 1] (swap 2 and 4)
+Pointers meet at 3, so we stop.
+Benefits:
+Efficient in terms of memory usage because it reverses the array in place (doesn't require extra space).
+2. Using an extra array:
+
+Concept:
+Create a new array of the same size.
+Copy elements from the original array to the new array, but in reverse order.
+Example:
+Original array: [1, 2, 3, 4, 5]
+New array: [5, 4, 3, 2, 1]
+Drawbacks:
+Requires extra memory to store the new array.
+
+3. Use Inbuilt Function
+Simply use an inbuilt function reverse()
+It's a one line soltuion.
