@@ -3,7 +3,7 @@ UserId : singhrud3rhb
 Screenshot: ![Promgram output](https://raw.githubusercontent.com/Rudra2637/image/refs/heads/main/solution.png)
 <hr>
 
-UserId:
+UserId:mohandinzmov
 <br>
 Screenshot: 
 <hr>
