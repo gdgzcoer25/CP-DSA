@@ -1,20 +1,21 @@
 //https://www.geeksforgeeks.org/problems/reverse-an-array/0
 
-public void reverseArray(int arr[]) {
-        int left = 0, right = arr.length - 1;
 
+class Solution {
+    public void reverseArray(int arr[]) {
+        int left = 0;
+        int right = arr.length - 1;
         while (left < right) {
-            // Swap the elements at left and right indices
             int temp = arr[left];
             arr[left] = arr[right];
             arr[right] = temp;
-
             left++;
             right--;
         }
     }
+}
 
-//Test Cases
+// Test Cases
 // Input: arr = [1, 4, 3, 2, 6, 5]
 // Output: [5, 6, 2, 3, 4, 1]
 
