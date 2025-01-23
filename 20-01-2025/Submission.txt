@@ -4,7 +4,7 @@ submission link: https://codeforces.com/contest/798/submission/301626448
 [UserId]: QuantSmith
 submission link: https://codeforces.com/contest/798/submission/302122781
 
-[UserId]: Amikumarsingh
+[UserId]: Singh_Amit_Kumar
 submission link: https://codeforces.com/contest/798/submission/302045550
 
 [UserId]:
