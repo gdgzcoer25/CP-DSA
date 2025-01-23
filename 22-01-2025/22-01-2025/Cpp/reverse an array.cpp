@@ -6,12 +6,14 @@ using namespace std;
 class Solution {
   public:
     void reverseArray(vector<int> &arr) {
-        int i=0;
-        int j=arr.size()-1;
-        while(i<=j){
-            swap(arr[i],arr[j]);
-            i++;
-            j--;
+        // code here
+        int l = 0;
+        int h = arr.size() - 1;
+        
+        while(l < h){
+            swap(arr[l], arr[h]);
+            l++;
+            h--;
         }
     }
 };
@@ -25,3 +27,6 @@ class Solution {
 
 // Input: arr = [1]
 // Output: [1]
+
+//Time Complexity 
+//O(n)
