@@ -1,0 +1,50 @@
+Solution Explanation:
+The goal of this solution is to extract the elements from the input array that are at even indexes (positions like 0, 2, 4, etc.) and store them in a new array. Let’s understand this step by step:
+
+What the Solution Does:
+Input: You give it an array (list of numbers).
+Output: It creates a new array containing only the numbers at even positions in the input array.
+For example:
+
+Input Array: {10, 20, 30, 40, 50}
+Even-indexed numbers: 10 (index 0), 30 (index 2), 50 (index 4)
+Output Array: {10, 30, 50}
+Approach:
+The solution follows a structured process to achieve the result:
+
+Start with an Empty Array:
+
+It creates a new empty array (ans), which will hold the numbers from even indexes.
+Iterate Over the Input Array:
+
+It loops through each element of the array one by one, checking its index.
+Indexes in programming start at 0, so positions 0, 2, 4, etc., are considered even.
+Check if the Index is Even:
+
+For every position in the array, it checks whether the index is divisible by 2 (this is how we identify even indexes).
+Example:
+Index 0: Even → Add element to the new array.
+Index 1: Odd → Skip this element.
+Index 2: Even → Add element to the new array.
+Add the Element to the New Array:
+
+If the index is even, it takes the element from that position in the input array and adds it to the new array.
+Return the New Array:
+
+After checking all the elements in the input array, the solution returns the new array containing only the numbers from even positions.
+How it Works Step-by-Step:
+Let’s go through an example to see how the solution works:
+
+Input Array: {10, 20, 30, 40, 50}
+Step 1: Start with an empty array: ans = {}.
+Step 2: Loop through each index and check if it’s even:
+Index 0 → Even → Add 10 to ans. Now, ans = {10}.
+Index 1 → Odd → Skip it. ans = {10}.
+Index 2 → Even → Add 30 to ans. Now, ans = {10, 30}.
+Index 3 → Odd → Skip it. ans = {10, 30}.
+Index 4 → Even → Add 50 to ans. Now, ans = {10, 30, 50}.
+Step 3: The loop ends. Return ans = {10, 30, 50}.
+Why This Approach Works:
+It systematically goes through the array and only picks elements at even indexes, skipping the unnecessary ones.
+The use of a loop ensures that the function works for arrays of any size.
+Checking if an index is even using % 2 is efficient, so the approach runs quickly even for large arrays.
