@@ -1,8 +1,8 @@
 [UserId]: Vinayak_J_G_009
 submission link: https://leetcode.com/problems/missing-number/submissions/1517732131/
 
-[UserId]:
-submission link: 
+[Sakshihande03]:
+submission link:https://leetcode.com/problems/missing-number/submissions/1517987884 
 
 [UserId]:
 submission link: 
