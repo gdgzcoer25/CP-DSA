@@ -9,8 +9,8 @@ submission link: https://leetcode.com/problems/missing-number/submissions/151773
 [Mohan_Dinkar]: 
 submission link: https://leetcode.com/problems/missing-number/submissions/1517931058
 
-[UserId]:
-submission link: 
+[UserId]: QuantSmith
+submission link: https://leetcode.com/problems/missing-number/submissions/1518202019
 
 [UserId]:
 submission link: 
