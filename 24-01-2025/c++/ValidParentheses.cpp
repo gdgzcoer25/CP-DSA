@@ -35,4 +35,4 @@ public:
 
 // Output: true
 
-//O(n)
+//TC : O(n)
