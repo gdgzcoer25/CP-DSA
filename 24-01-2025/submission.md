@@ -2,8 +2,8 @@
 [UserId]: purvighatage
 submission link: https://leetcode.com/problems/valid-parentheses/submissions/1518228447/
 
-[UserId]:
-submission link: 
+[Mohan_Dinkar]:
+submission link: https://leetcode.com/problems/valid-parentheses/submissions/1519186573
 
 [UserId]:
 submission link: 
