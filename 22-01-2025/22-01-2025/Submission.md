@@ -3,16 +3,13 @@ UserId : singhrud3rhb
 Screenshot: ![Promgram output](https://raw.githubusercontent.com/Rudra2637/image/refs/heads/main/solution.png)
 <hr>
 
-<<<<<<< HEAD
 UserId: Amikumarsingh
 <br>
 Screenshot: ![Program output](https://raw.githubusercontent.com/Amikumarsingh/CP-DSA/main/ReverseArray.JPG
 )
-=======
 UserId:mohandinzmov
 <br>
 Screenshot: ![Promgram output](https://raw.githubusercontent.com/Mohandinkar/image-host/refs/heads/main/Screenshot%202025-01-22%20170855.jpg?token=GHSAT0AAAAAAC4RX5FJC272KITTH67FAGJ2Z4Q3ZBQ)
->>>>>>> upstream/main
 <hr>
 
 UserId: sakshih9lb7
