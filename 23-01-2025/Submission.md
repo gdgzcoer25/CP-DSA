@@ -6,11 +6,11 @@ submission link: https://leetcode.com/problems/missing-number/submissions/151788
 submission link: https://leetcode.com/problems/missing-number/submissions/1517732131/
 >>>>>>> de6adbb8201639c3b1170334ed03ab3afc1ff994
 
-[UserId]:
-submission link: 
+[Mohan_Dinkar]: 
+submission link: https://leetcode.com/problems/missing-number/submissions/1517931058
 
-[UserId]:
-submission link: 
+[UserId]: QuantSmith
+submission link: https://leetcode.com/problems/missing-number/submissions/1518202019
 
 [UserId]:
 submission link: 

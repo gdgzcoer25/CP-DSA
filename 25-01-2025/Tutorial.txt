@@ -1,0 +1,35 @@
+Explanation of the Approach:
+The problem is to extract all the elements from a given list that are present at even indices (0-based indexing). Let’s break the solution into simple steps:
+
+Input:
+
+The function takes a list of integers (arr) as input.
+For example: If the input list is [10, 20, 30, 40, 50], we want to extract the elements at indices 0, 2, 4.
+Output:
+
+The function returns a new list containing only the elements at even indices of the input list.
+For the example above, the output will be [10, 30, 50].
+Step-by-Step Approach:
+
+Step 1: Create a new list ans to store the result.
+Step 2: Loop through each element of the input list using a for loop. Use a variable i to keep track of the current index.
+Step 3: Check if the index i is even (using i % 2 == 0).
+If i is even, add the element at that index to the result list ans.
+If i is odd, skip it.
+Step 4: After the loop finishes, return the result list ans.
+Key Operations:
+
+i % 2 == 0: This checks if the index is even.
+ans.add(arr.get(i)): This adds the element at index i of the input list to the result list.
+Example Walkthrough:
+
+Input: [10, 20, 30, 40, 50]
+Iteration 1: i = 0 (even) → Add 10 to ans.
+Iteration 2: i = 1 (odd) → Skip.
+Iteration 3: i = 2 (even) → Add 30 to ans.
+Iteration 4: i = 3 (odd) → Skip.
+Iteration 5: i = 4 (even) → Add 50 to ans.
+Output: [10, 30, 50].
+Why Use Lists?
+
+In Java, List is a flexible and dynamic data structure that can grow or shrink as needed. We used ArrayList, which is an implementation of the List interface, to store the result.
