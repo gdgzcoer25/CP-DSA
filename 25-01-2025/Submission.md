@@ -1,5 +1,4 @@
 [mohandinzmov]:
-<br>
 submission link:
 
 [UserId]: 
