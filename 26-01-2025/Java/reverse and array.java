@@ -1,15 +1,19 @@
 //https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/0
 
-static int search(int arr[], int x) {
-        // Iterate through the array
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == x) { // Check if the current element matches x
-                return i; // Return the index if found
-            }
-        }
-        // If x is not found in the array
-        return -1;
+
+class Solution {
+
+    static int search(int arr[], int x) {
+
+      for(int i=0;i<arr.length;i++){
+          if(x == arr[i]){
+              return i;
+          }
+      }
+      return -1;
     }
+}
+
 
 //Test Cases
 // Input: arr[] = [1, 2, 3, 4], x = 3
