@@ -1,18 +1,21 @@
 //https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/0
 
-#include<bits/stdc++.h>
-using namespace std;
-
 class Solution {
   public:
+
     int search(vector<int>& arr, int x) {
-        // Your code here
-        for(int i=0;i<arr.size();i++){
-            if(arr[i] == x)return i;
-        }
-        return -1;
+    
+      for(int i=0;i<arr.size();i++){
+          if(arr[i] == x){
+              
+              return i;
+          }
+      }
+      return -1;
     }
 };
+
+
 
 //Test Cases
 // Input: arr[] = [1, 2, 3, 4], x = 3
