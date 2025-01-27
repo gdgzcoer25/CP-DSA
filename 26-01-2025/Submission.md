@@ -10,8 +10,10 @@ Screenshot: ![Screenshot 2025-01-26 142238](https://github.com/user-attachments/
 <hr>
 
 UserId:sakshih9lb7
+UserId:amicodejgoa
+9aecda45f8c2aca7eaca3b6d886c0c9d1fb28113
 <br>
-Screenshot:
+Screenshot:![Program Output](https://github.com/Amikumarsingh/CP-DSA/commit/ff9a65b9e3c98b44c3c54ca16b8ecb010389cdbb)
 <hr>
 
 UserId:
