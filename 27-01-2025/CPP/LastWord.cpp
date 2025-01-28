@@ -5,19 +5,20 @@
 class Solution {
 public:
     int lengthOfLastWord(string s) {
-        int n = s.length();
-        int end = n - 1;
-        while (end >= 0 && s[end] == ' ') {
-            end--;
+        int ans = 0;
+        bool f = false;
+        for(int i=s.length()-1;i>=0;i--){
+            
+            if(s[i] == ' ' && f){
+                break;
+            }
+            
+            else if(s[i] != ' '){
+                f = true;
+                ans++;
+            }
         }
-        
-        int start = end;
-        while (start >= 0 && s[start] != ' ') {
-            start--;
-        }
-        
-        return end - start;
-
+        return ans;
     }
 };
 
