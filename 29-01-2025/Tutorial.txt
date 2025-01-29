@@ -1,0 +1,24 @@
+Problem Description
+The task is to calculate the sum of all odd and even integers from 1 to a given positive integer n. The result should be returned as two values:
+
+Sum of odd numbers
+Sum of even numbers
+
+Step-by-Step Breakdown
+1. Initialize Variables
+Create two variables: oddSum and evenSum, both set to 0.
+These will store the cumulative sums of odd and even numbers, respectively.
+
+2. Iterate Through Numbers
+Use a loop to traverse numbers from 1 to n (inclusive).
+For each number i, check whether it's even or odd using the modulus operator (i % 2).
+If i % 2 == 0, it's an even number; add it to evenSum.
+Otherwise, it's an odd number; add it to oddSum.
+
+3. Store Results
+Store the sums in a data structure that allows returning multiple values, such as an array, list, or tuple depending on the programming language.
+First element: oddSum
+Second element: evenSum
+
+4. Return/Print Results
+Display or return the result based on the program's requirement
