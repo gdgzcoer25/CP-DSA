@@ -1,6 +1,6 @@
 UserId : singhrud3rhb
 <br>
-Screenshot: ![Promgram output](https://raw.githubusercontent.com/Rudra2637/image/refs/heads/main/Screenshot%202025-01-25%20200023.png)
+Screenshot: ![Promgram output](https://raw.githubusercontent.com/Rudra2637/image/refs/heads/main/Solution%20.png)
 <hr>
 
 UserId:
