@@ -1,0 +1,44 @@
+// https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/
+
+
+// Code 
+class Solution {
+public:
+    int longestMonotonicSubarray(vector<int>& nums) {
+        int n = nums.size();
+        if (n == 0) return 0; 
+        
+        int inc = 1, dec = 1, ans = 1;
+        
+        for (int i = 1; i < n; i++) {
+            if (nums[i] > nums[i - 1]) {
+                inc++; 
+                dec = 1; 
+            } else if (nums[i] < nums[i - 1]) {
+                dec++; 
+                inc = 1; 
+            } else {
+                inc = 1;
+                dec = 1;
+            }
+            
+            ans = max(ans, max(inc, dec)); 
+        }
+        
+        return ans;
+    }
+};
+
+/*
+        TEST CASES
+
+Input: nums = [1,4,3,3,2]
+Output: 2
+
+Input: nums = [3,3,3,3]
+Output: 1
+
+Input: nums = [3,2,1]
+Output: 3
+
+*/
