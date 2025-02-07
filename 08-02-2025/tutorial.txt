@@ -1,0 +1,7 @@
+Intuition
+If we thought that all elements of the vector is a number we need to increase it by 1. 
+The input can be 100 digits so we must handle that through digits.
+
+Approach
+First we increment the first digit (last element) by 1, if it becomes 10 we make it 0 ans add 1 to the second digit.. 
+until the last digit (first element), if it becoms 10 we make it 1 and push_back a leading zero.
