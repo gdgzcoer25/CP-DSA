@@ -6,8 +6,8 @@ submission link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/s
 submission link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1532674858/
 >>>>>>> upstream/main
 
-[UserId]:
-submission link: 
+[QuantSmith]:
+submission link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1534655778
 
 [UserId]:
 submission link: 
