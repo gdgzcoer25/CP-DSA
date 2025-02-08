@@ -4,8 +4,8 @@ submission link: https://leetcode.com/problems/reverse-integer/submissions/12990
 [UserId]: 529JEITKKO
 submission link: https://leetcode.com/problems/reverse-integer/submissions/1534381424
 
-[UserId]:
-submission link: 
+[QuantSmith]:
+submission link: https://leetcode.com/problems/reverse-integer/submissions/1534664224
 
 [UserId]:
 submission link: 
