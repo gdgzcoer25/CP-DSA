@@ -1,8 +1,8 @@
 [UserId]: 529JEITKKO
 submission link: https://leetcode.com/problems/plus-one/submissions/1535444048
 
-[UserId]:
-submission link: 
+[QuantSmith]:
+submission link: https://leetcode.com/problems/plus-one/submissions/1535618974
 
 [UserId]:
 submission link: 
