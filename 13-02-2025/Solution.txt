@@ -1,0 +1,44 @@
+**Explanation of the Code (numSubarrayProductLessThanK)**
+
+The given function counts the number of contiguous subarrays whose product is strictly less than `k`.
+
+### **Approach (Brute Force)**
+1. **Edge Case Handling**:  
+   - If `k <= 1`, return `0` because no positive product can be less than `1`.
+
+2. **Iterate Over the Array**:  
+   - Use a nested loop to consider all possible subarrays.  
+   - The outer loop (`i`) picks the starting index of the subarray.  
+   - The inner loop (`j`) extends the subarray and calculates the product.  
+
+3. **Calculate the Product**:  
+   - Initialize `product = 1` at the start of each subarray.  
+   - Multiply `nums[j]` with `product` while iterating.  
+
+4. **Check the Condition**:  
+   - If `product < k`, increase the count (`cnt`) since the subarray is valid.  
+   - If `product >= k`, break the inner loop to stop unnecessary calculations.  
+
+### **Time Complexity**
+- The worst-case scenario is **O(N²)**, where `N` is the length of `nums`.  
+- This happens when we check all possible subarrays.  
+
+### **Space Complexity**
+- **O(1)**, as no extra space is used apart from variables.  
+
+### **Example Walkthrough**
+**Input**:  
+`nums = [10, 5, 2, 6]`, `k = 100`  
+
+**Step-by-step Execution**:
+```
+i = 0 -> [10] (valid) -> [10, 5] (valid) -> [10, 5, 2] (invalid, break)
+i = 1 -> [5] (valid) -> [5, 2] (valid) -> [5, 2, 6] (valid)
+i = 2 -> [2] (valid) -> [2, 6] (valid)
+i = 3 -> [6] (valid)
+```
+Total valid subarrays = **8**  
+
+### **Optimization**
+- The two-pointer/sliding window approach can reduce complexity to **O(N)**.
+
